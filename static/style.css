@@ -1,0 +1,179 @@
+.login {
+  background: linear-gradient(to bottom right, #ffdbdb, #d3f2ff);
+}
+
+.logbox {
+  background: #ffffff;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  color: #969696;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.forgot, .forgot:active, .forgot:hover {
+  color: #969696;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.loginput input[type=text], .loginput input[type=password] {
+  margin: 5px auto;
+  margin-top: 20px;
+  display: block;
+  padding: 0 10px;
+  width: 250px;
+  height: 34px;
+  color: #969696;
+  background: rgba(255, 219, 219, 0.4);
+  border: 1px solid;
+  border-color: #969696;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline-width: 0;
+}
+
+.logbutton {
+  margin: 20px auto;
+  display: block;
+  line-height: 0;
+  background: rgba(211, 242, 255, 0.4);
+  color: #969696;
+  border-radius: 2px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #969696;
+  border-radius: 2px;
+}
+
+.chatbox {
+  background: #ffffff;
+  width: 600px;
+  height: 500px;
+  border-radius: 25px;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxcontent {
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  top: 1%;
+}
+
+.messages {
+  float: right;
+  width: 70%;
+  height: 400px;
+  background: rgba(150, 150, 150, 0.4);
+  border-radius: 25px;
+  margin-right: 10;
+  margin-top: 10px;
+}
+
+.users {
+  float: left;
+  width: 25%;
+  height: 400px;
+  background: rgba(150, 150, 150, 0.4);
+  border-radius: 25px;
+  margin-left: 10;
+  margin-top: 10px;
+}
+
+.ultitle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.titlem, .titleu {
+    display: inline;
+    color: #969696;
+}
+
+.titlem {
+  margin-right: 90px;
+  margin-left: -30px;
+}
+
+.titleu {
+  margin-right: 90;
+  margin-left: 25;
+}
+
+#messages-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: scroll;
+  height: 280px;
+  width: 65%
+}
+
+#messages-list li {
+  margin-top: 20px;
+  margin-left:20px;
+}
+
+.yourname {
+  color: #969696;
+  text-align: left;
+}
+
+.othername {
+  color: white;
+  text-align: right;
+}
+
+#users-list {
+  margin-top: 10px;
+  margin-left: -10px
+  position: absolute;
+  overflow: scroll;
+  height: 300px;
+}
+
+#users-list li {
+  color: #969696;
+}
+
+.messages input[type=text] {
+  padding: 0 10px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 100px;
+  color: #969696;
+  border: 1px solid;
+  border-color: #969696;
+  text-align: left;
+  border-radius: 25px;
+  margin-top: 290;
+  margin-left: 10;
+  position: fixed;
+}
+
+.logout, .logout:active, .logout:hover {
+  color: #969696;
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  padding-right: 20px;
+}

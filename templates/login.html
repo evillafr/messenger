@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+{% block body %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col">
+      <div class="logbox">
+        <h1>Log in</h1>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <div class="alert alert-danger">{{ message }}</div>
+                </div>
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+        <form method="POST">
+          <div class="loginput">
+            <input type="text" name="login" value="" placeholder="Username">
+          </div>
+          <button type="submit" class="logbutton">Login</button>
+        </form>
+        <a class="forgot" href="{{ url_for('ohno') }}">Forgot password?</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
